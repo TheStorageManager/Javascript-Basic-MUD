@@ -1,0 +1,94 @@
+anchored
+- 0 Cannot be taken
+- 1 Can be taken
+canLight
+- 0 Can't light object on fire
+- 1 Can Light objects on fire
+cap (Capacity)
+- How many item slots are full
+capMax (Capacity Maximum)
+- How many item slots Object has
+consume
+- Is the item destroyed when the uses have run out?
+cost
+- determines item's buying / selling price
+def (Defense)
+- How much pyshical damage Object can midigate
+desc (Description)
+- String is the short description of an Object
+destDesc (Destroyed Description)
+- String is the text that is displayed when opject is destroyed (Generic if blank)
+destTrans (Destroyed Transformation)
+- what object this object transforms into when destroy (Nothing if blank)
+dict (Dictionary)
+- List of Nouns / Adjectives that identify the Object
+fragile (Takes damage when dropped)
+- 0 No
+- 1 Yes
+fullDesc (Full Description)
+- A longer more detailed description of an object (If blank just uses the short description)
+hp (Health Points)
+- How much health an object has
+- -1 Invincible
+id
+- String is identification number for object)
+mdef (Magic Defense)
+- How much magic damage Object can midigate
+name
+- Object's Name
+light
+- 0 No Light
+- 1 Dim Light
+- 2 Bright Light
+lightTog (Light Toggle)
+- 0 Cannot be changed
+- 1 Changed by Lighting on fire
+- 2 Changed by Operating
+Locked
+- -1 No Lock
+- 0 Not Locked
+- 1 Locked
+Lock
+- String is the Key ID that can lock or unlock the door
+quant (Quantity)
+- How many items in the stack?
+read
+- String is the text you can read off an object
+resist (Resistance) [0,0,0,0,0,0,0,0,0,0,0,0]
+- -1 Weakness 
+- 0 No Resistance
+- 1 Resistance
+- 2 Nullify
+- 3 Absorb
+size
+- The amount of item slots an object takes up
+stackMax (Stack Maximum)
+- Maximum stack size (Min 1). Is the Object stackable? then > 1
+state
+- 0 Solid
+- 1 Liquid
+- 2 Gas
+storageType
+- 0 Solid Objects
+- 1 Liquid Objects
+- 2 Gas Objects
+- 3 Solid & Liquid Objects
+- 4 Liquid & Gas Objects
+- 5 Any Type
+subtype
+- String is ID of Object subtype (weapon, food)
+surfCap (Surface Capacity)
+- How many item slots for surface are full
+surfCapMax (Surface Capacity Maximum)
+- How many item slots Object surface has
+type
+- String is ID of Object type (Object, Item, Room, Player)
+usedUpDec (Used Up Description)
+- String is what text to display when item is used up (Nothing if blank)
+usedUpTrans (Used Up Transformation)
+- Denotes what object item is transformed into when used up
+Uses
+- How many times effect can be used
+visible
+- 0 Object is not visible
+- 1 Object is visible

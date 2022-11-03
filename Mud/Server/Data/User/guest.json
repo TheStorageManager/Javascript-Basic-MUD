@@ -1,0 +1,21 @@
+{
+	"name": "guest",
+	"password": "",
+	"online": 0,
+	"banned": 0,
+	"state": 0,
+	"area": "Training Grounds",
+	"room": "Training Grounds 1",
+	"gold": [
+		0,
+		0,
+		0
+	],
+	"target": "",
+	"ready": 0,
+	"bag": 0,
+	"itemLimit": 20,
+	"inventory": [],
+	"bank": [],
+	"flags": []
+}

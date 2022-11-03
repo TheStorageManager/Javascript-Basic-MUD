@@ -1,0 +1,277 @@
+Basic Mud Commands
+- Action
+ + Look (L) [Get room description]
+ + Light [Sets an object on fire - IE Torch, Lantern, Campfire]
+ + Read [Read item or object]
+ + Inventory (I) [Check Held Items]
+ + Take [Takes an item from the ground or an object]
+ + Drop [Drops an item on the ground]
+ + Put/Place [Put item inside or on top of an object]
+ + Open [Opens door/object/item]
+ + Close [Closes door/object/item]
+ + Lock [Locks door/object/item]
+ + Unlock [Unlocks door/object/item]
+ + Use [Uses an item from inventory]
+ + Say (Sa) [Say something that everyone in the room can hear]
+ + Whisper (Wh) [Say something to another player in the room without anyone else hearing](Player1 whispered something to Player 2)
+ + Yell (Y) (Say something that everyone in the entire area can hear
+ + Quit/Logout
+- Movement [Move in specified direction - IE change rooms]
+ + North (N)
+ + Northeast (NE)
+ + East (E)
+ + Southeast (SE)
+ + South (S)
+ + Southwest (SW)
+ + West (W)
+ + Up (U)
+ + Down (D)
+- Quality of Life
+ + Clear [Removes all old text from client interface]
+ + Help (?) [Lists all the Commands and gives information on how to use them]
+ + Repeat Last Command (>)
+ + Time (Gives the server time)
+- Administrator
+ + Create (Makes a temporary item/Object/Entity and places it in current room or creates a permanent room)
+ + Edit (Changes Room/item/Object/Entity/Player properties permanently)
+ + Give (Gives player an item)
+ + Refresh (Resets all the rooms)
+
+Basic Mud Entities
+- Player (A player character)
+- NPC (A computer AI character)
+- Mob (A computer AI character that is meant to fight - IE an enemy)
+- Item (An item that can be carried by a player)
+- Object (An object in a room that can be interacted with)
+
+Basic Mud Features
+- All rooms get reset every 24 Hours (Special Text for anyone in the room when it happens)
+- Coloured Text
+- Dark and Light (Need a light source to see in the dark - IE Room/Inventory)
+ + Items in inventory cannot be identified without a light source
+ + Entities cannot be seen without a light source (But they can be heard)
+ + Entities carrying a light source can be seen in the dark, but they don't illuminate the room
+- Day and Night (Becomes dawn/day/dusk/night depending on server time)
+- Exits with Doors
+- Message of the Day
+- Scroll through all recieved text
+- Toggle Various Features on/off & set options (Room Reset/Day & Night)
+
+Advanced Mud Commands
+- Action
+ + Buy (Buy items from a shop)
+ + Sell (Sell items to a shop)
+ + Shop/List (Check items being sold)
+ + Deposit (DE) [Deposits item/money into bank]
+ + Withdraw (WI) [Withdraws item/money from bank]
+ + Bank [Checks Items/Money in Bank)
+ + Equip (Eq) [Equips an item]
+ + Remove (Re) [Unequips an item]
+ + Enter [Go through special exit/Go into an object]
+ + Exit [Come out of object]
+ + Steal
+
+Advanced Mud Features
+- Bank for storing items/Money
+- Currency (Money - Setup depends on the type of game)
+- Equiping items (Like swords and armour)
+- Larger/Heavier items take up multiple item slots
+- Objects can be placed in inventory
+- Player owned homes (Objects/Items Placed here don't get reset)
+- Send Hyperlinks, Images, Files (Also Download Them)
+- Stealing From NPC's / Players
+- Special Exits (Holes/Portals/Windows)
+- Hide in objects
+- Smart Parser (Advanced Commands)
+
+Modules
+- Base Mud (Basic Mud Controls)
+
+---------------------------------------------------------------------
+-----Command Help----------------------------------------------------
+---------------------------------------------------------------------
+*>*
+[Shortcut] N/A
+Repeats last command
+##########
+>
+
+*Clear*
+[Shortcut] N/A
+Removes all old text from player's screen
+##########
+Clear
+
+*Close*
+[Shortcut] N/A
+Closes an Item/Object/Door
+##########
+Close <Item Name>
+Close <Object Name>
+Close Door <Direction>
+
+*Down*
+[Shortcut] D
+Player travels down
+##########
+Down
+
+*Drop*
+[Shortcut] N/A
+Puts item from inventory on ground
+##########
+Drop <Number of Items> <Item Name>
+
+*East*
+[Shortcut] E
+Player travels east
+##########
+East
+
+*Help*
+[Shortcut] ?
+Lists all commands and tells you how to use them
+##########
+Help
+Help <Command>
+
+*Inventory*
+[Shortcut] I
+Gives you a list of what you're carrying
+##########
+Inventory
+
+*Light*
+[Shortcut] N/A
+Lights an Item/Object on fire
+##########
+Light "Item Name" with "Item Name"
+Light "Object Name" with "Item Name"
+
+*Lock*
+[Shortcut] N/A
+Locks an Item/Object/Door
+##########
+Lock <Item Name>
+Lock <Item Name> with <Key Name>
+Lock <Object Name>
+Lock <Object Name> with <Key Name>
+Lock Door <Direction>
+Lock Door <Direction> with <Key Name>
+
+*Look*
+[Shortcut] L
+Gives you a description of the room, an item, an object, or another entity.
+##########
+Look
+Look at <Item Name>
+Look at <Object Name>
+Look at <Entity Name>
+Look in <Item Name>
+Look in <Object Name>
+
+*North*
+[Shortcut] N
+Player travels north
+##########
+North
+
+*Northeast*
+[Shortcut] NE
+Player travels northeast
+##########
+Northeast
+
+*Northwest*
+[Shortcut] NW
+Player travels northwest
+##########
+Northwest
+
+*Open*
+[Shortcut] N/A
+opens an Item/Object/Door
+##########
+Open <Item Name>
+Open <Object Name>
+Open Door <Direction>
+
+*Put/Place*
+[Shortcut] N/A
+Puts item from inventory in or on an Item/Object
+##########
+Place <Number of Items> <Item Name> in <Item Name>
+Place <Number of Items> <Item Name> in <Object Name>
+Place <Number of Items> <Item Name> on <Object Name>
+
+*Read*
+[Shortcut] N/A
+Tells you what is written on an item or object
+##########
+Read <Item Name>
+Read <Object Name>
+
+*Say*
+[Shortcut] SA
+Say something that everyone in the room can hear
+##########
+Say "Text"
+
+*South*
+[Shortcut] S
+Player travels south
+##########
+South
+
+*Southeast*
+[Shortcut] SE
+Player travels Southeast
+##########
+Southeast
+
+*Southwest*
+[Shortcut] SW
+Player travels southwest
+##########
+Southwest
+
+*Take*
+[Shortcut] N/A
+Picks up an item from the ground or an item/object and puts it in your inventory
+##########
+Take <Number of Items> <Item Name>
+Take <Number of Items> <Item Name> from <Item Name>
+Take <Number of Items> <Item Name> from <Object Name>
+
+*Up*
+[Shortcut] U
+Player travels up
+##########
+Up
+
+*Use*
+[Shortcut] N/A
+Uses an item from your inventory
+##########
+Use <Item Name>
+Use <Item Name> on <Item Name>
+Use <Item Name> on <Object Name>
+Use <Item Name> on <Entity Name>
+
+*West*
+[Shortcut] W
+Player travels west
+##########
+West
+
+*Whisper*
+[Shortcut] WH
+Quietly whisper something to another player that other people cannot hear
+##########
+Whisper "Text"
+
+*Yell*
+[Shortcut] Y
+Shout something that everyone in the whole area can hear
+##########
+Yell "Text"

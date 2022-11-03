@@ -1,0 +1,9 @@
+{
+	"name": "object",
+	"dir": [
+		"Campfire",
+		"Chest",
+		"Lamppost",
+		"Sign"
+	]
+}

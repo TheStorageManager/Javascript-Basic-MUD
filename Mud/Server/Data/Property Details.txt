@@ -1,0 +1,155 @@
+Objects / Items -------------------------------------------------------------------------------------------------------|
+
+Charges
+- The amount of times the object can be used *If consumable it is destroyed when charges equal 0*
+
+(-1) - Can be used an infinite amount of times
+
+Consumable
+- This property indicates whether this item is destroyed upon use *Only Destroyed when no charges are left*
+
+(0) - Not destroyed after use
+(1) - Is destroyed after use
+
+Cost *items only*
+- this property indicates how many Item points are used when this item is used in battle
+
+Description
+- This holds the text to show the player if they look at it
+
+Effect
+- What happens when you use item or object?
+
+Flammable
+- Object can be set on fire if true
+
+Item Effects
+(0) - Nothing 'This item has no obvious use.'
+
+Object Effects
+(0) - Nothing 'This object has no obvious use.'
+
+Id
+- If blank, the property is not being used
+- Used to determine what data is on an omnitool
+
+Items
+- This property tells us what items are being held by the object / item
+
+ItemSlots
+- This property determines how many items can be placed inside the object / item
+
+Key 
+- This property tells us what kind of lock this key fits into
+- If blank this item is not a key
+
+Light
+- This property makes the object emit light and tells us if we can light it or not.
+
+(0) - Object is not emitting light, but can be lit
+(1) - Object is emitting light and can be put out
+(2) - Object is not emitting light, but can be turned on
+(3) - Object is emitting light and can be turned off
+(4) - Object is not emitting light, cannot be toggled
+(5) - Object is emitting light and cannot be toggled
+
+Lock
+- Holds the data that determines what key locks and unlocks object / item
+
+Locked
+- This property tells us if the object / item is locked or not
+
+(0) - Object is not locked
+(1) - object is Locked
+(2) - Object cannot be locked
+
+Name
+- Holds Object / item name data
+
+Number
+- Holds data for number of items in stack
+
+Open
+- This property determine whether an object / item is open or closed or if we can even open or close it.
+
+(0) - Object is closed and can be opened
+(1) - Object is Open and can be closed
+(2) - Object cannot be opened or closed
+
+PlaceItems *Object only*
+- This property tells us what items are placed on top of the object
+
+PlaceSlots *Object only*
+-This property determines how many items can be placed on top of the object
+
+Read
+- This holds the text to show the player if they read it
+- If blank it cannot be read
+
+Stackable *Items only*
+- This property tells us if the item can be placed into stacks or not
+
+(0) - Item cannot be stacked
+(1) - Item can be stacked
+
+Rooms------------------------------------------------------------------------------------------------------------------|
+
+Dark - determines if room is naturally light or not
+(0) - Room is naturally light (no light sources needed)
+(1) - Room is naturally Dark (Light source is needed)
+
+Door - Determines if a Door exists or not and whether it is opened or closed
+(0) - Open Door
+(1) - Closed Door
+(2) - No Door
+(3) - Sealed door (Closed and cannot be opened)
+
+Lock - Holds the ID number of correct key to use to lock or unlock
+- ID (xxx) means there is no key that can unlock it (Unlocks with an Event)
+
+Locked - Determines if a lock exists or not and whether it is locked or unlocked
+(0) - Unlocked
+(1) - Locked
+(2) - No Lock
+
+Room
+- Namespace of current room
+
+RoomName
+- Visible name of room
+
+Area
+- Name of area that the room resides in
+
+Outside - determines whether room is located outside or not
+(0) - no
+(1) - yes
+
+RndBattle
+- This property tells us if random battles occur in this room or not
+
+(0) - Random Battles do not occur
+(1) - Random Battles do occur
+
+Terrain - Determines what type of ground room has
+(0) - Ground (Normal)
+(1) - Water (Cannot travel on without the swimming ability)
+(2) - Hole/Sky (Player falls to room below if traveled on)
+(3) - Lava (Kills player if touches)
+(4) - Swamp (Poison entire party if traveled on)
+(5) - ice (Keeps sliding until a wall/closed door is hit)
+
+Global-----------------------------------------------------------------------------------------------------------------|
+
+Daylight
+- Determines whether it is day or night in the world
+
+(0) Day
+(1) Dusk
+(2) Night
+(3) Dawn
+
+Time
+- Tells us what time it is in the world
+
+(set by server time) update every second 

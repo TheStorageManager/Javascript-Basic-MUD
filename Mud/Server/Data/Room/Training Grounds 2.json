@@ -1,0 +1,332 @@
+{
+	"room": "Training Grounds 2",
+	"roomName": "Training Grounds",
+	"area": "Test",
+	"light": 2,
+	"outside": 0,
+	"terrain": 0,
+	"resetCycle": 1,
+	"description": "A plain-looking room.",
+	"fullDescription": "This room is so plain that it feels like a void staring into your soul.",
+	"capacityMax": 50,
+	"capacity": 0,
+	"objects": [
+		{
+			"name": "Lighter",
+			"dict": [
+				"lighter"
+			],
+			"id": "",
+			"type": "Item",
+			"subtype": "",
+			"desc": "A small red device that sets things on fire.",
+			"fullDesc": "",
+			"destDesc": "",
+			"destTrans": "",
+			"cost": 0,
+			"state": 0,
+			"quant": 1,
+			"stackMax": 99,
+			"consume": 1,
+			"visible": 1,
+			"hp": 1,
+			"def": 0,
+			"mdef": 0,
+			"resist": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"canLight": 1,
+			"flammable": 0,
+			"fragile": 0,
+			"anchored": 0,
+			"light": 0,
+			"lightTog": 0,
+			"locked": -1,
+			"lock": "",
+			"open": -1,
+			"read": [],
+			"size": 1,
+			"storageType": 0,
+			"capMax": 0,
+			"cap": 0,
+			"items": [],
+			"surfCap": 0,
+			"surfCapMax": 0,
+			"surfaceItems": [],
+			"undCap": 0,
+			"undCapMax": 0,
+			"underItems": [],
+			"uses": 1,
+			"usedUpDec": "",
+			"usedUpTrans": "",
+			"specialCommand": [],
+			"effect": 0
+		},
+		{
+			"name": "Campfire",
+			"dict": [
+				"campfire"
+			],
+			"id": "",
+			"type": "Object",
+			"subtype": "",
+			"desc": "Just a bunch of neatly arranged sticks really.",
+			"fullDesc": "",
+			"destDesc": "",
+			"destTrans": "",
+			"cost": 0,
+			"state": 0,
+			"quant": 1,
+			"stackMax": 1,
+			"consume": 0,
+			"visible": 1,
+			"hp": 20,
+			"def": 10,
+			"mdef": 10,
+			"resist": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"canLight": 0,
+			"flammable": 1,
+			"fragile": 0,
+			"anchored": 0,
+			"light": 0,
+			"lightTog": 0,
+			"locked": -1,
+			"lock": "",
+			"open": -1,
+			"read": [],
+			"size": 10,
+			"storageType": 0,
+			"capMax": 0,
+			"cap": 0,
+			"items": [],
+			"surfCap": 0,
+			"surfCapMax": 0,
+			"surfaceItems": [],
+			"undCap": 0,
+			"undCapMax": 0,
+			"underItems": [],
+			"uses": 0,
+			"usedUpDec": "",
+			"usedUpTrans": "",
+			"specialCommand": [],
+			"effect": 0
+		}
+	],
+	"mobs": [],
+	"players": [],
+	"exits": [
+		{
+			"name": "north",
+			"exit": "",
+			"door": ""
+		},
+		{
+			"name": "northeast",
+			"exit": "",
+			"door": ""
+		},
+		{
+			"name": "east",
+			"exit": "",
+			"door": ""
+		},
+		{
+			"name": "southeast",
+			"exit": "",
+			"door": ""
+		},
+		{
+			"name": "south",
+			"exit": "Training Grounds 1",
+			"door": {
+				"name": "Wooden Door",
+				"dict": [
+					"door",
+					"south",
+					"wood",
+					"wooden"
+				],
+				"id": "",
+				"type": "object",
+				"subtype": "door",
+				"desc": "It's a plain wooden door.",
+				"fullDesc": "It's a plain wooden door.",
+				"destDesc": "The door breaks into splinters.",
+				"destTrans": "",
+				"cost": 0,
+				"state": 0,
+				"quant": 1,
+				"stackMax": 1,
+				"consume": 1,
+				"visible": 1,
+				"hp": 50,
+				"def": 0,
+				"mdef": 0,
+				"resist": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"canLight": 0,
+				"flammable": 0,
+				"fragile": 0,
+				"anchored": 1,
+				"light": 0,
+				"lightTog": 0,
+				"locked": -1,
+				"lock": "",
+				"open": 1,
+				"read": [],
+				"size": 10,
+				"storageType": 0,
+				"capMax": 0,
+				"cap": 0,
+				"items": [],
+				"surfCap": 0,
+				"surfCapMax": 0,
+				"surfaceItems": [],
+				"undCap": 0,
+				"undCapMax": 0,
+				"underItems": [],
+				"uses": 0,
+				"usedUpDec": "",
+				"usedUpTrans": "",
+				"specialCommand": [],
+				"effect": 0
+			}
+		},
+		{
+			"name": "southwest",
+			"exit": "",
+			"door": ""
+		},
+		{
+			"name": "west",
+			"exit": "",
+			"door": ""
+		},
+		{
+			"name": "northwest",
+			"exit": "",
+			"door": ""
+		},
+		{
+			"name": "up",
+			"exit": "",
+			"door": ""
+		},
+		{
+			"name": "down",
+			"exit": "",
+			"door": ""
+		}
+	],
+	"backup": {
+		"objects": [],
+		"exits": [
+			{
+				"name": "north",
+				"exit": "",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			},
+			{
+				"name": "northeast",
+				"exit": "",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			},
+			{
+				"name": "east",
+				"exit": "",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			},
+			{
+				"name": "southeast",
+				"exit": "",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			},
+			{
+				"name": "south",
+				"exit": "Training Grounds 1",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			},
+			{
+				"name": "southwest",
+				"exit": "",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			},
+			{
+				"name": "west",
+				"exit": "",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			},
+			{
+				"name": "northwest",
+				"exit": "",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			},
+			{
+				"name": "up",
+				"exit": "",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			},
+			{
+				"name": "down",
+				"exit": "",
+				"door": -1,
+				"locked": -1,
+				"lock": ""
+			}
+		]
+	}
+}
